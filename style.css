@@ -408,6 +408,12 @@ html{
     margin:0;
     padding: 0;
   }
+
+  .content{
+    width: 100%;
+    text-align: center;
+  }
+
   .content1{
     height: auto;
     padding: 0;
@@ -446,6 +452,7 @@ html{
     padding-left: 10px;
     display: inline;
     width:auto;
+    text-align: left;
   }
 
   .article-card{
