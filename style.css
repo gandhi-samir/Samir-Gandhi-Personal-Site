@@ -452,7 +452,7 @@ html{
     padding-left: 10px;
     display: inline;
     width:auto;
-    text-align: left;
+    text-align: center;
   }
 
   .article-card{
@@ -462,7 +462,6 @@ html{
 
   .article-content{
     padding-left: 10px;
-    text-align: center;
   }
 
   .article-container{
