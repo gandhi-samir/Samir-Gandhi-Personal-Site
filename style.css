@@ -396,7 +396,7 @@ padding-top: 30px;
 
 html{
   
-  overflow: hidden;
+  
 
 }
 
@@ -461,7 +461,8 @@ html{
   }
 
   .article-content{
-    padding-left: 1px;
+    padding-left: 10px;
+    text-align: center;
   }
 
   .article-container{
