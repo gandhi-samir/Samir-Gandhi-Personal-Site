@@ -136,8 +136,8 @@ height: 40px;
 
 
 .content2{
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
   max-width :calc(100%-80px);
 text-align: center;
   height: auto;
@@ -167,7 +167,7 @@ text-align: center;
 
 .article-container{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
   gap: 2rem;
 }
 .article-image{
