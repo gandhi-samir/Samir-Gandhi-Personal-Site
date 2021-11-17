@@ -26,13 +26,13 @@ body {
 
   list-style: none;   
   text-align: left;
-
+  padding-bottom: 150px;
   margin: 0 auto;
   padding-top: 5px;
   padding-left: 14rem;
   padding-right: 14rem;
   
-  height: 150px;
+  height: auto;
 
   font-family: 'Epilogue', sans-serif;
  
@@ -128,31 +128,9 @@ height: 40px;
   color: white;
   
 }
-.contact-link:hover{
-  
-  list-style: none;
-  text-decoration: none;
-  color:aquamarine;
-  
-}
 
-.projects li {
-  list-style: none;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  color: #b6ccfe;
-  display: inline-block;
-  opacity: 0.75;
-}
 
-.project-link{
-  
-  list-style: none;
-  text-decoration: none;
-  color: #b6ccfe;
-  
-}
+
 
 
 .content2{
@@ -160,7 +138,8 @@ height: 40px;
   margin-right: 15rem;
   max-width :calc(100%-80px);
 text-align: center;
-  height: 1350px;
+  height: auto;
+  padding-bottom: 20px;
 
 }
 
@@ -366,10 +345,11 @@ padding-top: 30px;
  
 
     padding-top: 50px;
-    height: 500px;
+    height: auto;
     text-align: left;
     padding-left:15rem;
     padding-right: 15rem;
+    padding-bottom: 30px;
 
 }
 
@@ -410,7 +390,7 @@ padding-top: 30px;
 
 
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1400px) {
 
   body{
     height: auto;
@@ -451,6 +431,7 @@ padding-top: 30px;
   
   .content2{
     height: auto;
+    padding-bottom: 30px;
     padding-left: 5rem;
     padding-right: 1px;
     display: inline;
@@ -471,7 +452,7 @@ padding-top: 30px;
     padding-right: 5rem;
   }
   .content3{
-    height: 300px;
+    height: auto;
     display: inline;
     width: auto;
     background: black;
