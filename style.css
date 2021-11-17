@@ -393,12 +393,12 @@ padding-top: 30px;
 html{
   scroll-behavior: smooth;
   
-  overflow-x: hidden!important;
+ 
 }
 
   body{
     overflow-x: hidden!important;
-    padding: env(safe-area-inset, 0px); 
+    
     height: auto;
     width: auto;
     margin:0;
