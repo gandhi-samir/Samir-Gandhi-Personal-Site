@@ -397,7 +397,7 @@ html{
 }
 
   body{
-    
+    overflow-x: hidden;
     
     height: auto;
     width: auto;
@@ -470,7 +470,7 @@ html{
     height: auto;
     display: inline;
     width: auto;
-    background: black;
+    
     color: black;
     box-shadow: none;
     padding-left: 5rem;
