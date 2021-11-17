@@ -396,6 +396,7 @@ padding-top: 30px;
 
 html{
   scroll-behavior: smooth;
+  overflow: hidden;
 
 }
 
