@@ -9,7 +9,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
- 
+  padding: env(safe-area-inset, 0px); 
  line-height: 1.5;
  background: white;
  margin: 0;
@@ -393,6 +393,7 @@ padding-top: 30px;
 @media only screen and (max-width: 1400px) {
 
   body{
+    padding: env(safe-area-inset, 0px); 
     height: auto;
     width: auto;
     margin:0;
@@ -432,8 +433,7 @@ padding-top: 30px;
   .content2{
     height: auto;
     padding-bottom: 30px;
-    padding-left: 5rem;
-    padding-right: 1px;
+    
     display: inline;
     width:auto;
   }
