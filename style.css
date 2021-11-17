@@ -395,8 +395,8 @@ padding-top: 30px;
 @media only screen and (max-width: 1400px) {
 
 html{
-  scroll-behavior: smooth;
-  overflow: hidden!important;
+  
+  overflow: hidden;
 
 }
 
