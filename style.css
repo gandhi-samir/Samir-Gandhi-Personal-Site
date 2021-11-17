@@ -396,12 +396,12 @@ padding-top: 30px;
 
 html{
   scroll-behavior: smooth;
-  overflow-x: hidden!important;
+
 }
 
   body{
     padding: env(safe-area-inset, 0px); 
-    overflow-x: hidden!important;
+    
     height: auto;
     width: auto;
     margin:0;
