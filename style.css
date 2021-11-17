@@ -393,12 +393,12 @@ padding-top: 30px;
 html{
   scroll-behavior: smooth;
   
-
+  overflow-x: hidden!important;
 }
 
   body{
-    overflow-x: hidden;
-    
+    overflow-x: hidden!important;
+    padding: env(safe-area-inset, 0px); 
     height: auto;
     width: auto;
     margin:0;
@@ -454,6 +454,7 @@ html{
   }
 
   .article-card{
+   
     width :100%;
 
 
@@ -470,7 +471,7 @@ html{
     height: auto;
     display: inline;
     width: auto;
-    
+    background: transparent;
     color: black;
     box-shadow: none;
     padding-left: 5rem;
