@@ -232,11 +232,17 @@ transition: 0.3s
 
 
 .article-card2{
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;;
+  height: auto;
   width: 100%;
   box-shadow: 0 4px 20px 0;
 background: white;
 border-radius: 20px;
 transition: 0.3s
+
 
 
 }
@@ -249,7 +255,8 @@ transition: 0.3s
 }
 
 .article-content2{
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: left;
 }
 
@@ -292,12 +299,7 @@ transition: 0.3s
 
 
 
-.article-card2{
-  display: inline-block;
-  margin: 0 auto;
-  padding: 30px;
-  height: auto;
-}
+
 
 .content3 h1{
   color: white;
