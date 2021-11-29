@@ -68,6 +68,8 @@ body {
 height: 40px;
 }
 
+
+
 .name{
   font-size: 25px;
 }
@@ -542,7 +544,7 @@ html{
   }
 
   .navbar img{
-    height: 30px;
+    height: 40px;
     }
 
 }
